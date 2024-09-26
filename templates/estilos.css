@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+header {
+    background: #007bff;
+}
+
+footer {
+    background: #333;
+}
+
+img {
+    border: 5px solid #007bff;
+}
+
+ul.list-group li {
+    background-color: #f8f9fa;
+}
+
+h4 {
+    color: #007bff;
+}
+
+p {
+    font-size: 1.1rem;
+}

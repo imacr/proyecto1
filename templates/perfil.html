@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae - Imanol Cruz Clemente</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/estilo.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mi CV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#perfil">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#educacion">Educación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Imanol Cruz Clemente</h1>
+        <p>Estudiante de Ingeniería en Sistemas Computacionales</p>
+    </header>
+
+    <!-- Sección de perfil -->
+    <section id="perfil" class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="image-container image-profile"></div>
+            </div>
+            <div class="col-md-8">
+                <h2>Perfil</h2>
+                <p>Estudiante de Ingeniería en Sistemas Computacionales en la Universidad Mexiquense del Bicentenario. Apasionado por la tecnología y el desarrollo de software, con enfoque en soluciones innovadoras y escalables.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia laboral -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Experiencia Laboral</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h4>Apex Systems.</h4>
+                <p><strong>Desarrollador Full Stack</strong> | Enero 2032 - Presente</p>
+                <p>Desarrollo de aplicaciones web utilizando tecnologías como React, Node.js y MongoDB.</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h4>Spark Technologies.</h4>
+                <p><strong>Desarrollador Frontend</strong> | Marzo 2030 - Diciembre 2032</p>
+                <p>Encargado del diseño y desarrollo de interfaces de usuario interactivas utilizando HTML, CSS, y JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educación -->
+    <section id="educacion" class="container my-5">
+        <h2 class="text-center mb-4">Educación</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><strong>Ingeniería en Sistemas Computacionales</strong> - Universidad Mexiquense del Bicentenario | 2021 - 2026</li>
+            <li class="list-group-item"><strong>Curso de Desarrollo Web Full Stack</strong> - Platzi | 2023</li>
+            <li class="list-group-item"><strong>Curso de Programación en Python</strong> - Udemy | 2022</li>
+        </ul>
+    </section>
+
+       <!-- Habilidades -->
+       <section class="container my-5">
+        <h2 class="text-center mb-4">Habilidades</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item">HTML5/CSS3</li>
+                    <li class="list-group-item">JavaScript</li>
+                    <li class="list-group-item">React.js</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item">Node.js</li>
+                    <li class="list-group-item">MongoDB</li>
+                    <li class="list-group-item">Python</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item">Assembler</li>
+                    <li class="list-group-item">Hacking</li>
+                    <li class="list-group-item">Testing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de imágenes (Carrusel) -->
+    <section id="galeria" class="container my-5">
+        <h2 class="text-center mb-4">Galería de Proyectos</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="static/img/yo.jpg" class="d-block w-100" alt="Proyecto 1" >
+                </div>
+                <div class="carousel-item">
+                    <img src="static/img/yo1.jpg\" class="d-block w-100" alt="Proyecto 2" >
+                </div>
+                <div class="carousel-item">
+                    <img src="static/img/yo4.jpg" class="d-block w-100 h-100" alt="Proyecto 3" >
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer id="contacto" class="bg-dark text-white text-center py-4">
+        <p>Contacto: imanolcruz588@gmail.com | Tel: 7121919338</p>
+        <p>&copy; 2024 Imanol Cruz Clemente. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
